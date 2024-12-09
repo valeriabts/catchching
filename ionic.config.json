@@ -1,0 +1,7 @@
+{
+  "name": "catchching",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
