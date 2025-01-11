@@ -32,6 +32,9 @@ import '@ionic/react/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import LessonQuiz1 from './pages/LessonQuiz1.xy';
+import Simulator from './pages/Simulator.xy';
+import HypotheticallyInvest from './pages/HypotheticallyInvest';
 
 setupIonicReact();
 
@@ -46,7 +49,13 @@ const App: React.FC = () => (
           <Home />
         </Route>
         <Route exact path="/LessonQuiz1">
-          <Redirect to="/LessonQuiz1" />
+        <LessonQuiz1/>
+        </Route>
+        <Route exact path="/Simulator">
+        <Simulator/>
+        </Route>
+        <Route exact path="/HypotheticallyInvest">
+          <HypotheticallyInvest />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
