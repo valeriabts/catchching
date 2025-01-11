@@ -1,0 +1,51 @@
+ion-card {
+    --background: #3D3B34;
+    --color: #ECE9E4;
+  }
+  
+ion-card-title {
+    --color: #ECE9E4;
+  }
+  
+ion-card-subtitle {
+    --color: #ECE9E4;
+  }
+
+ion-content{
+    --ion-background-color:#2B2923;
+}
+
+#primaryButton{
+    color: #2B2923;
+    width: 48%;
+    margin-left: 1.35%;
+}
+
+
+#title{
+  color: #ECE9E4;
+  text-align: left;
+  top: -200%;
+  left: 5%;
+}
+
+#text{
+  color: #ECE9E4;
+  text-align: left;
+  position: absolute;
+  top: 150%;
+  left: 5%;
+}
+
+
+ion-input.inputUSD {
+ --color: #CCFF00 !important;
+ --background: var(--background-activated)
+}
+
+#secondaryButton{
+    display: inline-block;
+    width: 48%;
+    margin-left: 1.35%;
+}
+

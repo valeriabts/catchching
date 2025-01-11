@@ -1,0 +1,9 @@
+ion-title{
+    --color: #ECE9E4;
+    font-size: 25px;
+    text-align: left !important;
+}
+
+ion-text{
+    --color: #ECE9E4;
+}
